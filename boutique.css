@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Poetsen+One&display=swap');
+
+
+:root {
+    --rouge: #FF0000
+}
+
+strong {
+    cursor: pointer;
+    color: #FF0000;
+}
+
+body {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+    margin: 0;
+    background-color: white;
+}
+
+header {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    padding: 30px 5% 0 5%;
+}
+
+header nav h1 {
+    margin: 0;
+    text-transform: uppercase;
+    color:#FF0000
+
+}
+
+header nav .right {
+    display: flex;
+    align-items: center;
+}
+
+header nav .right p {
+    margin: 0 7% 0 0;
+}
+
+header nav .right p:hover {
+    color: #
+    color: #FF0000;
+}
+
+
+
+a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    
+}
+
+.hd{
+    background-color: inherit;
+    border: 1px solid var(--rouge);
+    color: var(--rouge);
+    transition: blackground-color 0.5s, color 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: var(--rouge);
+    color: white;
+}
+
+.presentation {
+    padding: 30px 5%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+
+}
+
+.presentation .info-presentation {
+    width: 100%;
+    flex-shrink: 3;
+}
+
+.presentation .info-presentation h1 {
+    margin: 0%;
+    font-size: 4vw;
+    width: 80%;
+    color: white;
+}
+
+.presentation .info-presentation p {
+    font-weight: 300;
+    color: white;
+
+}
+
+
+p {
+    color: white;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding-top: 15px;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Centrer verticalement */
+    justify-content: center; /* Centrer horizontalement */
+}
+
+
+.container .card {
+    width: 270px;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 7px rgba(255, 0, 0, 0.8);
+    margin-bottom: 15px;
+    margin: 20px;
+
+    
+}
+
+.container .card .product-image {
+    width: 230px;
+}
+
+.container .card .product-image img {
+    width: 120%;
+    transition: 0.4s;
+}
+
+.container .card .product-image img:hover {
+    transform: scale(1.1);
+}
+
+.container .card .product-info h4 {
+    font-size: 18px;
+    padding: 0 25px;
+    margin-bottom: 10px;
+}o
+
+.container .card .btn {
+    width: 100%;
+}
+
+.container .card .btn button {
+    width: 100%;
+    padding: 10px;
+    background: red;
+    border: 1px solid black; 
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+footer h3 {
+    color: var(--rouge);
+}
+
+footer p {
+    cursor: pointer;
+    color: white;
+}
+
+footer p:hover {
+    color: #FF0000;
+}
+
+@media screen and (max-width: 768px) {
+    .presentation .info-presentation h1 {
+        font-size: 6vw; /* Taille de la police ajustée pour les petits écrans */
+    }
+    .image-presentation {
+        display: none;
+    }
+    a {
+        color: white;
+        padding: 6px;
+        
+    }
+}
